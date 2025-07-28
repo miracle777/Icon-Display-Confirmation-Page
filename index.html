@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アイコン表示確認ページ</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Material Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        /* Interフォントを適用 */
+        body {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white p-8 rounded-lg shadow-xl max-w-2xl w-full">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">アイコン表示確認</h1>
+
+        <div class="space-y-6">
+            <!-- アイコン1: fa-clipboard-list -->
+            <div class="flex items-center space-x-4 p-4 bg-blue-50 rounded-lg shadow-sm">
+                <i class="fas fa-clipboard-list text-blue-600" style="font-size: 32px;"></i>
+                <div>
+                    <p class="text-lg font-semibold text-gray-700">fa-clipboard-list (フォームやアンケート)</p>
+                    <code class="text-sm text-gray-500">&lt;i class="fas fa-clipboard-list" style="font-size: 32px;"&gt;&lt;/i&gt;</code>
+                </div>
+            </div>
+
+            <!-- アイコン2: fa-file-alt -->
+            <div class="flex items-center space-x-4 p-4 bg-green-50 rounded-lg shadow-sm">
+                <i class="fas fa-file-alt text-green-600" style="font-size: 32px;"></i>
+                <div>
+                    <p class="text-lg font-semibold text-gray-700">fa-file-alt (ドキュメント)</p>
+                    <code class="text-sm text-gray-500">&lt;i class="fas fa-file-alt" style="font-size: 32px;"&gt;&lt;/i&gt;</code>
+                </div>
+            </div>
+
+            <!-- アイコン3: fa-file-lines -->
+            <div class="flex items-center space-x-4 p-4 bg-purple-50 rounded-lg shadow-sm">
+                <i class="fas fa-file-lines text-purple-600" style="font-size: 32px;"></i>
+                <div>
+                    <p class="text-lg font-semibold text-gray-700">fa-file-lines (fa-file-altの別名・v6以降)</p>
+                    <code class="text-sm text-gray-500">&lt;i class="fas fa-file-lines" style="font-size: 32px;"&gt;&lt;/i&gt;</code>
+                </div>
+            </div>
+
+            <!-- アイコン4: fa-poll -->
+            <div class="flex items-center space-x-4 p-4 bg-yellow-50 rounded-lg shadow-sm">
+                <i class="fas fa-poll text-yellow-600" style="font-size: 32px;"></i>
+                <div>
+                    <p class="text-lg font-semibold text-gray-700">fa-poll (アンケートや統計)</p>
+                    <code class="text-sm text-gray-500">&lt;i class="fas fa-poll" style="font-size: 32px;"&gt;&lt;/i&gt;</code>
+                </div>
+            </div>
+
+            <!-- Material Iconsの例 (追加) -->
+            <div class="flex items-center space-x-4 p-4 bg-red-50 rounded-lg shadow-sm">
+                <i class="material-icons text-red-600" style="font-size: 32px;">star</i>
+                <div>
+                    <p class="text-lg font-semibold text-gray-700">Material Icons (例: star)</p>
+                    <code class="text-sm text-gray-500">&lt;i class="material-icons" style="font-size: 32px;"&gt;star&lt;/i&gt;</code>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
